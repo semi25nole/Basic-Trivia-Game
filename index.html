@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Basic Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-md-8">
+                <div class="text-center">
+                    <header id="head">
+                        <h1>
+							How well do you know Baseball?
+							</h1>
+                        <!--This closes the h1-->
+                    </header>
+                    <div class="jumbotron">
+                        <h3>
+							What # is assigned to a Shortstop on the scorecard?
+						</h3>
+                        <!--This closes the h3-->
+                        <form action="">
+                            <input type="radio" name="position" value="val">5</input>
+                            <input type="radio" name="position" value="val">3</input>
+                            <input type="radio" name="position" value="6">6</input>
+                            <input type="radio" name="position" value="val">4</input>
+                        </form>
+                        <!--This closes the form-->
+                        <br>
+                        <h3>
+							A ball hit into the outfield that hits the ground and then bounces over the fence is?
+						</h3>
+                        <!--This closes the 2nd h3-->
+                        <form action="">
+                            <input type="radio" name="position" value="ground">Homerun</input>
+                            <input type="radio" name="position" value="ground">Single</input>
+                            <input type="radio" name="position" value="Ground-Rule Double">Ground-Rule Double</input>
+                            <input type="radio" name="position" value="ground">Double</input>
+                        </form>
+                        <!--This closes the  2nd form-->
+                        <br>
+                        <h3>
+							What does MLB stand for?
+						</h3>
+                        <!--This closes the 3rd h3-->
+                        <form action="">
+                            <input type="radio" name="position" value="logo">Must Love Beer</input>
+                            <input type="radio" name="position" value="logo">Major License Brand</input>
+                            <input type="radio" name="position" value="Major League Baseball">Major League Baseball</input>
+                            <input type="radio" name="position" value="logo">Major League Bases</input>
+                        </form>
+                        <!--This closes the 3rd form-->
+                        <br>
+                        <h3>
+							How many different positions are there in baseball?
+						</h3>
+                        <!--This closes the 4th h3-->
+                        <form action="">
+                            <input type="radio" name="position" value="different">7</input>
+                            <input type="radio" name="position" value="different">10</input>
+                            <input type="radio" name="position" value="9">9</input>
+                            <input type="radio" name="position" value="different">8</input>
+                        </form>
+                        <!--This closes the fourth form-->
+                        <br>
+                        <h3>
+							How many total "outs" are in a standard 9-inning baseball game?
+						</h3>
+                        <!--This closes the fifth h3-->
+                        <form action="">
+                            <input type="radio" name="position" value="outs">62</input>
+                            <input type="radio" name="position" value="outs">51</input>
+                            <input type="radio" name="position" value="outs">55</input>
+                            <input type="radio" name="position" value="54">54</input>
+                        </form>
+                        <!--This closes the fifth form-->
+                        <br>
+                        <h3>
+							In the song "Take Me out to the Ballgame", you're supposed to by them some peanuts and ?
+						</h3>
+                        <!--This closes the sixth h3-->
+                        <form action="">
+                            <input type="radio" name="position" value="song">Sunflower Seeds</input>
+                            <input type="radio" name="position" value="Cracker Jacks">Cracker Jacks</input>
+                            <input type="radio" name="position" value="song">BubbleGum</input>
+                            <input type="radio" name="position" value="song">Other Snacks</input>
+                        </form>
+                        <!--This closes the sixth form-->
+                        <br>
+                        <div id="ans">
+                            <p id="correct"></p>
+                            <p id="incorrect"></p>
+                            <p id="tot"></p>
+                        </div>
+                        <!--This closes the answers div-->
+                        <button class="btn btn-primary">Submit</button>
+                    </div>
+                    <!--This closes the jumbotron div-->
+                </div>
+                <!--This closes the text-center div-->
+            </div>
+            <!--This closes the col div-->
+        </div>
+        <!--This closes the row div-->
+    </div>
+    <!--This closes the container div-->
+    <script src="./assets/js/game.js"></script>
+</body>
+
+</html>

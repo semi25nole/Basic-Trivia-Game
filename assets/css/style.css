@@ -1,0 +1,22 @@
+.container-fluid {
+    background: url(../images/field.jpg);
+}
+
+.col {
+    position: relative;
+    left: 15%;
+}
+
+header {
+    font-size: 80px;
+    color: white;
+    font-family: papyrus;
+    margin-top: 30px;
+}
+
+#ans {
+    display: none;
+    background: lightgray;
+    opacity: 0.4;
+    border-radius: 8px;
+}
